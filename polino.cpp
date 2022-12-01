@@ -4,7 +4,7 @@
 int main()
 {
 	int decision,i;
-	float polinomio[12],valor;
+	float polinomio[12],valor,resultado;
 	printf("Polinomios\nSe presenta un menu donde tendras solo 3 opciones\n");
 	printf("Para intoducir el ponimonio y valuarlo presione 1\nPara multiplicar 2 polinomios presione 2\nPara dividri dos polinomios presione 3\n");
 	scanf("%i",&decision);
@@ -18,6 +18,12 @@ int main()
 				i++;
 			}
 			printf("Digite en que valor quiere valuar la funcion: \n");			scanf("%f",&valor);
+	i=0;
+		while(i>=12)
+			{
+				resultado=resultado+(pow(valor,i)*polinomio[i]);
+				i++;
+			}
 	break;
 	case 2:
 	break;
