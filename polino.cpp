@@ -3,8 +3,8 @@
 
 int main()
 {
-	int decision,i,f,g;
-	float polinomio[12],polinomio1[12],polinomio2[12];
+	int decision,i,f,g,s;
+	float polinomio[12],polinomio1[12],polinomio2[12],multiplicacion[12];
 	printf("Polinomios\nSe presenta un menu donde tendras solo 3 opciones\n");
 	printf("Para intoducir el ponimonio y valuarlo presione 1\nPara multiplicar 2 polinomios presione 2\nPara dividri dos polinomios presione 3\n");
 	scanf("%i",&decision);
