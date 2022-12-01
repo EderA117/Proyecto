@@ -31,6 +31,11 @@ int main()
 			{
 				printf("Introduzca los coeficientes del 2do polinomio: x^%i\n",g);				scanf("%f",&polinomio2[g]);
 			}
+			for(f=0;f<=12;f++)
+			{
+				multiplicacion[s]=polinomio1[f]*polinomio[g];
+				s++;
+			}
 	break;
 	case 3:
 	break;
