@@ -20,6 +20,7 @@ int main()
 			{
 				resultado=resultado+(pow(valor,i)*polinomio[i]);
 			}
+			printf("El resultado es: %lf",resultado);
 	break;
 	case 2:
 	break;
