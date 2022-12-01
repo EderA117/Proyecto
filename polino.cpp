@@ -11,11 +11,14 @@ int main()
 	switch(decision)
 	{
 	case 1:
-	i=0;
-	while(i<=12)
+		for(i=0;i<=12;i++)
 			{
 				printf("Introduzca el coeficiente del polinomio: x^%i\n",i);				scanf("%f",&polinomio[i]);
-				i++;
+			}
+			printf("Digite en que valor quiere valuar la funcion: \n");			scanf("%f",&valor);
+			for(i=0;i<=12;i++)
+			{
+				resultado=resultado+(pow(valor,i)*polinomio[i]);
 			}
 	break;
 	case 2:
