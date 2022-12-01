@@ -3,8 +3,8 @@
 
 int main()
 {
-	int decision,i;
-	float polinomio[12];
+	int decision,i,f;
+	float polinomio[12],polinomio1[12];
 	printf("Polinomios\nSe presenta un menu donde tendras solo 3 opciones\n");
 	printf("Para intoducir el ponimonio y valuarlo presione 1\nPara multiplicar 2 polinomios presione 2\nPara dividri dos polinomios presione 3\n");
 	scanf("%i",&decision);
@@ -23,6 +23,10 @@ int main()
 			printf("El resultado es: %lf",resultado);
 	break;
 	case 2:
+		for(f=0;f<=12;f++)
+			{
+				printf("Introduzca los coeficientes del 1er polinomio: x^%i\n",f);				scanf("%f",&polinomio1[f]);
+			}
 	break;
 	case 3:
 	break;
